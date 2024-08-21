@@ -1,4 +1,4 @@
-package modelOne;
+package modelFour;
 
 public class TimeTableObject implements Comparable<TimeTableObject> {
     public int id;

@@ -1,4 +1,4 @@
-package modelOne;
+package modelFour;
 
 public class Section {
     public int courseCode;

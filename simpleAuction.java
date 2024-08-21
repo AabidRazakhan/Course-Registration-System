@@ -1,4 +1,4 @@
-package modelOne;
+package modelFour;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -56,7 +56,7 @@ public abstract class simpleAuction {
         }
         BufferedWriter output = null;
         try {
-            File file = new File("C:\\Users\\ABC\\IdeaProjects\\Course-Registration\\src\\modelOne\\allotment.txt");
+            File file = new File("C:\\Users\\ABC\\IdeaProjects\\Course-Registration\\src\\modelFour\\allotment.txt");
             output = new BufferedWriter(new FileWriter(file));
             output.write(text);
         } catch ( IOException e ) {
